@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev" : "node index.js"
+    "dev": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "heroku": "^9.1.0",
     "package": "^1.0.1"
   },
   "engines": {
