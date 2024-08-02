@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-app.post('/bfha', (req, res) => {
+app.post('/bfhl', (req, res) => {
   try {
     const { data } = req.body;
 
@@ -36,7 +36,7 @@ app.post('/bfha', (req, res) => {
   }
 });
 
-app.get('/bfhl', (req, res) => {
+app.get('/bfha', (req, res) => {
   res.status(200).json({ operation_code: 1 });
 });
 
