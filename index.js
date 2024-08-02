@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-app.post('/bfhl', (req, res) => {
+app.post('/bfha', (req, res) => {
   try {
     const { data } = req.body;
 
